@@ -1,0 +1,98 @@
+@media only screen and (max-width){
+    body{
+        height: 1280px;
+    }
+
+    #start_panel{
+        background-size: 700px 300px;
+        height: 300px;
+        width: 700px;
+        position: absolute;
+        top: 200px;
+        left: 360px;
+        display: none;
+    }
+    #image_box{
+        background-size: 120px 120px;
+        height: 120px;
+        width: 120px;
+        position: absolute;
+        top: 10px;
+        left: 300px;
+    }
+    #starter{
+        position: absolute;
+        top: 140px;
+        left: 180px;
+    }
+    #strtbtn{
+        position: absolute;
+        top: 200px;
+        left: 310px;
+        padding: 5px 15px;
+    }
+    #game_screen{
+    width: 840px;
+    height: 400px;
+    position: absolute;
+    top: 170px;
+    left: 300px;
+    background-size: 840px 400px;
+    overflow: hidden;
+    }
+    #score_card{
+        height: 100px;
+        width: 300px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    h3{
+        margin: 20px 20px;
+    }
+    #character_ball{
+        background-size: 100px 100px;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        bottom: 0px;
+        left: 40px;
+    }
+    #bar_hurdel{
+        background-size: 100px 100px;
+        background-repeat:no-repeat ;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+    #result_board{
+        background-size: 640px 300px;
+        height: 300px;
+        width: 640px;
+        position: absolute;
+        top: 130px;
+        left: 400px;
+    }
+    h1{
+        display: block;
+        margin: 80px  0px 0px 280px;
+        font-family: monospace;
+    
+    }
+    h2{      
+         display: block;
+        margin: 30px 290px;
+        font-family: monospace;
+        font-size: 17px;
+    }
+    #restart_btn{
+        height: 50px;
+        width: 100px;
+        font-size: x-large;
+        font-weight: bolder;
+        padding: 20px 30px;
+        margin: 200px 253px;
+    }
+}

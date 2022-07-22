@@ -13,6 +13,9 @@ document.getElementById("strtbtn").addEventListener("click", () => {
     document.getElementById("game_screen").style.display = "block"
 
     song.play();
+    setTimeout(() => {
+    alert("press any key to jump");
+    }, 200);
 });
 
 

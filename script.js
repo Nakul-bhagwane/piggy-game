@@ -33,6 +33,10 @@ window.addEventListener("keydown", () => {
     jump();
 });
 
+window.addEventListener("click", () => {
+    jump();
+});
+
 
 
 // decider that tell game over or not ,it will check the result in every 10 mili second 
